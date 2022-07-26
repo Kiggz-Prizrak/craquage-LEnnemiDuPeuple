@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Soviet;
+  src: url(../font/Soviet2be.ttf);
+}
+
+span, h1, h2, p{
+  font-family: Soviet;
+}
+
+body{
+  background-image: url(../assets/communiste_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
+}
+
+.container{
+  background-color: rgb(196, 150, 150);opacity:0.9;;
+  height: 500px;
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+
+.letterContainer{
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.letter{
+  background-color: yellow;
+  border: solid 1px black;
+  padding: 5px;
+  margin : 3px;
+  min-width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sovietIcon{
+  height : 20px;
+}
+
+.triggeredStalin{
+  border-radius: 100%;
+  position: absolute;
+  right : 5%;
+  width : 200px
+}
